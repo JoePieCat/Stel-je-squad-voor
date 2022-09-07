@@ -57,3 +57,19 @@ body::-webkit-scrollbar {
     font-size: 2vw;
     transition: 1s;
 }
+
+.list {
+    text-align: center;
+    list-style-position: inside;
+    margin: 0 3vw 0 0;
+}
+
+#short1, #short2, #short3, #short4, #short5, #short6 {
+    display: block;
+    transition: 3s;
+}
+
+#long1, #long2, #long3, #long4, #long5, #long6 {
+    display: none;
+    transition: 3s;
+}
