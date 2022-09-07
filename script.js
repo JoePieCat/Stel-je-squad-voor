@@ -39,11 +39,18 @@ function extend(part) {
         let goThroughAll = 1;
         while (goThroughAll < 7) { 
             document.getElementById("part"+goThroughAll).style.width = "16.67vw"; 
-            document.getElementById("part"+goThroughAll+"H").style.display = "block";
-            document.getElementById("short"+goThroughAll).style.display = "block";
-            document.getElementById("long"+goThroughAll).style.display = "none";
             goThroughAll++; 
         }
         extended = false;
+
+        goThroughAll = 1;
+        setTimeout(() => {
+            while (goThroughAll < 7) { 
+                document.getElementById("part"+goThroughAll+"H").style.display = "block";
+                document.getElementById("long"+goThroughAll).style.display = "none";
+                document.getElementById("short"+goThroughAll).style.display = "block";
+                goThroughAll++; 
+            }
+        }, 350);
     }
 }
