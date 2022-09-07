@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="refresh" content="0; URL=./main.html"/>
+
+    <title>Redirecting...</title>
+
+    <style> 
+    h1, h2 { text-align: center; } 
+    #loading { display: block; }
+    #loadFail { display: none; }
+    </style>
+
+</head>
+
+<body>
+
+    <div id="loading">
+        <h1>Loading your page...</h1>
+    </div>
+
+    <div id="loadFail">
+        <h1>Oops! The page may not have loaded correctly, please try reloading.</h1>
+        <h2>If you are still having issues after reloading, the page might not work on your device or browser, or it is down at the moment.</h2>
+        <h2>Please try the page on a different device or browser. We apologize for the inconvenience.</h2>
+    </div>
+
+    <script>
+        setTimeout(() => {
+            document.getElementById('loading').style.display = 'none';
+            document.getElementById('loadFail').style.display = 'block';
+        }, 5000);
+    </script>
+
+</body>
+
+</html>
