@@ -29,6 +29,10 @@ body::-webkit-scrollbar {
     transition: 1s;
 }
 
+.red {
+    color: red;
+}
+
 #pageContent {
     position: absolute;
     padding: 0;
