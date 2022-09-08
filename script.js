@@ -54,3 +54,7 @@ function extend(part) {
         }, 350);
     }
 }
+
+function makeBanner() {
+    document.getElementById("titleTop").style.height = "10vw";
+}
