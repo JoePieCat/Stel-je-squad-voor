@@ -56,5 +56,5 @@ function extend(part) {
 }
 
 function makeBanner() {
-    document.getElementById("titleTop").style.height = "10vw";
+    document.getElementById("titleTop").style.height = "10vh";
 }
