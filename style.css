@@ -21,11 +21,12 @@ body::-webkit-scrollbar {
     left: 0;
     top: 0;
     width: 100vw;
-    height: 10vh;
+    height: 100vh;
     text-align: center;
     font-size: 1vw;
     letter-spacing: 1px;
     word-spacing: 10px;
+    transition: 1s;
 }
 
 #pageContent {
